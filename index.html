@@ -39,6 +39,13 @@ body {
     <div id="stars"></div>
 <div id="hearts"></div>
 <div id="particles"></div>
+    <div id="loading" class="screen">
+    <h2 id="loadingText">0%</h2>
+    <div class="progress">
+        <div id="loadingBar"></div>
+    </div>
+</div>
+
     <div style="justify-content:center; align-items:center; height:100vh; display:flex; ">
     <audio id="myAudio" src="https://github.com/user-attachments/files/29463143/Inayae-MassTamilan.org.mp3"></audio>
     </div>
@@ -46,6 +53,23 @@ body {
 <button onclick="document.getElementById('myAudio').play()">
   Play Sound
 </button>
+    <section id="memories" class="screen hidden">
+
+    <div class="memory-container">
+
+        <img id="memoryImage" src="selfie.jpg">
+
+        <div class="memory-overlay">
+
+            <h1 id="memoryTitle"></h1>
+
+            <p id="memoryDescription"></p>
+
+        </div>
+
+    </div>
+
+</section>
     <img id="memoryImage" src="selfie.jpg">
   </body>
  
