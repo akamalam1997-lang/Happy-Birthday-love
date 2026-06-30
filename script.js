@@ -15,6 +15,9 @@ const scenes = [
     "video",
     "ending"
 ];
+const flame = document.getElementById("flame");
+const birthdaySection = document.getElementById("birthdaySection");
+const button = document.getElementById("blowBtn");
 window.addEventListener("load", () => {
 
     showLoading();
@@ -30,11 +33,9 @@ window.addEventListener("load", () => {
 // Wait until everything is loaded
 
 
-const flame = document.getElementById("flame");
-const birthdaySection = document.getElementById("birthdaySection");
-const button = document.getElementById("blowBtn");
 
-button.addEventListener("click", () => {
+
+function blowcandle() {
 
     // Disable button after first click
     button.disabled = true;
