@@ -2,6 +2,20 @@
    Happy Birthday Vignesh ❤️
    Part 1
 ====================================================== */
+let currentScene = 0;
+let typingFinished = false;
+
+// Scene Order
+const scenes = [
+    "loading",
+    "welcome",
+    "scanner",
+    "memories",
+    "gallery",
+    "future",
+    "video",
+    "ending"
+];
 const canvas=document.getElementById("canvas");
 const ctx=canvas.getContext("2d");
 
@@ -164,20 +178,7 @@ canvas.style.opacity="0";
 document.getElementById("message").classList.add("show");
 
 },7000);
-let currentScene = 0;
-let typingFinished = false;
 
-// Scene Order
-const scenes = [
-    "loading",
-    "welcome",
-    "scanner",
-    "memories",
-    "gallery",
-    "future",
-    "video",
-    "ending"
-];
 
 // Wait until everything is loaded
 window.addEventListener("load", () => {
