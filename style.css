@@ -232,7 +232,10 @@ transition:.3s;
 transform:scale(1.05);
 
 }
-
+#birthdaySection{
+    opacity:1;
+    transition:opacity 2s ease;
+}
 #fireworksCanvas{
     position:fixed;
     top:0;
