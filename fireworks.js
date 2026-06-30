@@ -1,3 +1,38 @@
+function blowcandle() {
+const flame = document.getElementById("flame");
+const birthdaySection = document.getElementById("birthdaySection");
+const button = document.getElementById("blowBtn");
+
+    // Disable button after first click
+    button.disabled = true;
+
+    // Hide flame immediately
+    flame.style.opacity = "0";
+
+    // Optional: hide button
+    button.style.display = "none";
+
+    // Wait 2 seconds
+    setTimeout(() => {
+
+        // Fade out entire screen
+        birthdaySection.style.transition = "opacity 2s ease";
+        birthdaySection.style.opacity = "0";
+
+        // Remove screen after fade
+        setTimeout(() => {
+            birthdaySection.style.display = "none";
+
+            // Call your next function here
+            // showMemories();
+            // startGallery();
+            // window.location.href = "gallery.html";
+
+        }, 2000);
+
+    }, 2000);
+
+}
 function startBirthdayFireworks() {
 
     const canvas = document.getElementById("fireworksCanvas");
