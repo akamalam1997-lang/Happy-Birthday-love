@@ -25,7 +25,7 @@ window.addEventListener("load", () => {
 
     setupButtons();
 
-    setupMusic();
+    /*setupMusic();*/
 
 });
 
@@ -133,7 +133,7 @@ function setupButtons(){
 
         futureBtn.addEventListener("click",()=>{
 
-            nextScene("scanner");
+           /* nextScene("scanner");*/
 
         });
 
