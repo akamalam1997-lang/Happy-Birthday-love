@@ -59,7 +59,7 @@ function startPhotoSlideshow(slides) {
                 return;
             }
 
-        }, 500);
+        }, 3000);
 
     }
 
