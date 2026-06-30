@@ -65,7 +65,7 @@ function startPhotoSlideshow(slides) {
 
     showSlide();
 
-    slideInterval = setInterval(showSlide, 3000);
+    slideInterval = setInterval(showSlide, 6000);
 }
 function blowcandle() {
 const flame = document.getElementById("flame");
