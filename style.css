@@ -65,27 +65,9 @@
     font-size:20px;
 }
 
-.stars{
-    position:absolute;
-    inset:0;
-    background-image:
-    radial-gradient(#ff6699 1px, transparent 1px);
-    background-size:60px 60px;
-    opacity:.35;
-    animation:moveStars 20s linear infinite;
-}
 
-@keyframes moveStars{
 
-    from{
-        transform:translateY(0);
-    }
 
-    to{
-        transform:translateY(-120px);
-    }
-
-}
 /*gift*/
 /* ===============================
    Gift Intro Screen
