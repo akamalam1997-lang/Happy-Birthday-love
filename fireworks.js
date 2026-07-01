@@ -140,11 +140,11 @@ function startPhotoSlideshow() {
             if (index >= photos.length) {
                 clearInterval(slideInterval);
 
-setTimeout(()=>{
+//setTimeout(()=>{
 
   //  showEndingScreen();
 
-},1000);
+//},1000);
                 // Optional: Call your next function here
                 // showFinalMessage();
 
@@ -156,13 +156,13 @@ setTimeout(()=>{
 }
 
     showSlide();
-if (index == photos.length) {
-    slideInterval = setInterval(showSlide, 25000);
-}
-    else
-{
+//if (index == photos.length) {
+  //  slideInterval = setInterval(showSlide, 25000);
+//}
+    //else
+//{
     slideInterval = setInterval(showSlide, 20000);
-}
+//}
 
 
 function blowcandle() {
