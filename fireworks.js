@@ -2,7 +2,7 @@
 const photos = [
 {
     title:"❤️ A Moment That Changed Everything 💍",
-    image:"https://github.com/user-attachments/assets/8f295f5a-bf80-448a-b35a-351f0496caa2"
+    image:"https://github.com/user-attachments/assets/6f551680-f558-439e-aa04-ee7ad43f9e73"
 },
 {
     title:"💕 Bound by Love",
