@@ -52,59 +52,7 @@ function showEndingScreen(){
 
     screen.style.display="flex";
 
-    const messages=[
 
-        "Thank you for being my smile on the hardest days.",
-
-        "Thank you for being the best husband.",
-
-        "The most loving father.",
-
-        "And my forever best friend. ❤️",
-
-        "I miss you every single day.",
-
-        "Life isn't the same without you...",
-
-        "Even your nagging. 😊",
-
-        "I can't wait to see you again.",
-
-        "Until then..."
-
-    ];
-
-    let i=0;
-
-    function nextMessage(){
-
-        if(i>=messages.length){
-
-            document.getElementById("endingContent").style.display="none";
-            document.getElementById("continueScreen").style.display="block";
-
-            return;
-        }
-
-        text.style.opacity=0;
-
-        setTimeout(()=>{
-
-            text.innerHTML=messages[i];
-
-            text.style.opacity=1;
-
-            i++;
-
-            setTimeout(nextMessage,2500);
-
-        },500);
-
-    }
-
-    nextMessage();
-
-}
 function showGiftIntro(){
 
     const page=document.getElementById("giftPage");
