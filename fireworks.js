@@ -45,13 +45,6 @@ const messages = [
 "And every beautiful memory we've created together.💕"
 
 ];
-function showEndingScreen(){
-
-    const screen=document.getElementById("endingScreen");
-    const text=document.getElementById("endingText");
-
-    screen.style.display="flex";
-
 
 function showGiftIntro(){
 
@@ -149,7 +142,7 @@ function startPhotoSlideshow() {
 
 setTimeout(()=>{
 
-    showEndingScreen();
+  //  showEndingScreen();
 
 },1000);
                 // Optional: Call your next function here
