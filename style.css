@@ -183,7 +183,7 @@ z-index:2;
 
 .content h3{
 
-font-size:40px;
+font-size:30px;
 
 letter-spacing:10px;
 
@@ -193,19 +193,19 @@ color:#ff6666;
 
 .content h1{
 
-font-size:90px;
+font-size:80px;
 
 font-style:italic;
 
 color:#ff3333;
 
-text-shadow:0 0 25px gold;
+text-shadow:0 0 20px #ff3333;
 
 }
 
 .content h2{
 
-font-size:70px;
+font-size:60px;
 
 letter-spacing:5px;
 
@@ -223,7 +223,7 @@ width:500px;
 
 line-height:30px;
 
-font-size:20px;
+font-size:15px;
 
 opacity:.9;
 
@@ -343,15 +343,15 @@ transform:translateX(-50%) scale(.8);
 
 #blowBtn{
 
-margin-top:40px;
+margin-top:35px;
 
-padding:18px 40px;
+padding:15px 35px;
 
 font-size:20px;
 
 border:none;
 
-border-radius:40px;
+border-radius:30px;
 
 background:linear-gradient(45deg,#000,#ff6666);
 
@@ -359,7 +359,7 @@ color:white;
 
 cursor:pointer;
 
-box-shadow:0 0 20px gold;
+box-shadow:0 0 20px #ff3333;
 
 transition:.3s;
 
