@@ -24,7 +24,13 @@ const photos = [
     image:"https://github.com/user-attachments/assets/8972321a-b449-4844-95fa-9a92c85668d6"
 },
 {
-    title:"🏡 Waiting for This Dream to Come True",
+    title:"❤️ Happy Birthday, My Love.
+
+Our best chapters are yet to be written.
+
+I miss you every day. Life isn't the same without you... even your nagging.
+
+Can't wait to be with you again. ❤️",
     image:"https://github.com/user-attachments/assets/68a60bda-b9fc-402a-b880-31b3197ec478"
 }
 ];
